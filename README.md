@@ -5,7 +5,7 @@ Free tool to install tailwind css with WordPress easily and also minfy css code 
 and You don't need to import the tailwind.config.js file in your <script src> html page
 Because it is all merged automatically with the css file
 
-works smart
+**works smart**
 You can change the file and folder names and they will be found
 
 ### I know the guide looks big, but it's very, very easy
@@ -48,14 +48,14 @@ Files with the default name :
 
 are downloaded and used You can change them externally
 
-But you must make sure to modify them in the variables in the render.sh  file between line 2:8
+But you must make sure to modify them in the variables in the **render.sh**  file between line **2:8**
 
 
 
 # How it works ?
-* tailwindcss node_modules downloads normally as the official tailwind does
-* Create a tailwind.config.js file
-* import tailwind.min.css file as hook in functions.php in end of lines of file
+* tailwindcss **node_modules** downloads normally as the official tailwind does
+* Create a **tailwind.config.js** file
+* import **tailwind.min.css** file as hook in **functions.php** in end of lines of file
 
   
  Codes are copied from the tool's core files
@@ -68,11 +68,11 @@ But you must make sure to modify them in the variables in the render.sh  file be
  
 # How to Uninstall
  Just
- * remove a hook from functions.php
- * delete 2222press folder
+ * remove a hook from **functions.php**
+ * delete **2222press** folder
  
 # How to upload a template without packages
-We know that the node_modules folder is large in size
+We know that the **node_modules** folder is large in size
   
 so , just delete :
 * node_modules folder
@@ -80,14 +80,14 @@ so , just delete :
 * package-lock.json
  
 also you can delete optional:
-* tailwind.config.js   
+* tailwind.config.js 
   
  
-but You don't need to delete the tailwind.config.js  file, it will be recognized automatically next time when you install
+but You don't need to delete the **tailwind.config.js**  file, it will be recognized automatically next time when you install
   
 It will not be created again, do not worry
   
- This is how you can upload the template in a smaller size and reuse it again locally without tailwind.config.js gf file customizations
+ This is how you can upload the template in a smaller size and reuse it again locally without **tailwind.config.js** file customizations
  
 
   
