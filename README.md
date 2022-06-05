@@ -26,16 +26,16 @@ You can change the file and folder names and they will be found
 
 ## Now to prepare the Tailwind css file You have two choices :
 
-### without Optimizing for Production
+### A- without Optimizing for Production
 build your CSS  With full prepare without minify
 
 1.  `bash render.sh -full`
 
-### With Optimizing for Production
+### B- With Optimizing for Production
 
 build your CSS  With prepare css minify your classes 
 
-1.  `bash render.sh -minify`
+2.  `bash render.sh -minify`
 
 # general information
 
