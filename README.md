@@ -16,6 +16,7 @@ You can change the file and folder names and they will be found
 
 2- You must have bash script
 
+_______________________________________
 
 # Setup
 
@@ -36,6 +37,7 @@ build your CSS  With full prepare without minify
 build your CSS  With prepare css minify your classes 
 
 2.  `bash render.sh -minify`
+_______________________________________
 
 # general information
 
@@ -51,6 +53,7 @@ are downloaded and used You can change them externally
 But you must make sure to modify them in the variables in the **render.sh**  file between line **2:8**
 
 
+_______________________________________
 
 # How it works ?
 * tailwindcss **node_modules** downloads normally as the official tailwind does
@@ -65,12 +68,14 @@ But you must make sure to modify them in the variables in the **render.sh**  fil
 
  So if you want when installing something to be copied, you can modify the file and it will be transferred as it is
   
- 
+ _______________________________________
+
 # How to Uninstall
  Just
  * remove a hook from **functions.php**
  * delete **2222press** folder
- 
+ _______________________________________
+
 # How to upload a template without packages
 We know that the **node_modules** folder is large in size
   
