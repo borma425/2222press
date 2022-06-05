@@ -1,6 +1,6 @@
 # 2222press
 
-Free tool to install tailwind css with **WordPress** easily and also minfy css code from Your Command line
+Free tool to install and use tailwindcss with **WordPress** easily and also minfy your classes as css code from Your Command line
 
 and You don't need to import the **tailwind.config.js** file in your **<script src>** html page
 Because it is all merged automatically with the css file
