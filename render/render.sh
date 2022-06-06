@@ -108,7 +108,7 @@ install
 
 elif [[ $1 = "-full" ]]; then
 
-echo "Just Satisfactory"
+echo "Full css in progress"
 
 full_init
 
