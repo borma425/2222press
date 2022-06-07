@@ -10,6 +10,12 @@ You can change the file and folder names and they will be found
 
 ### I know the guide looks big, but it's very, very easy
 
+  
+ ## See tutorial Video :
+ 
+   [![Step Image](https://user-images.githubusercontent.com/42983220/172398614-bef59fa8-106c-4e7e-9b5c-30f190835599.png)](https://youtu.be/ONudJgT0Ol0)
+
+  
 ## Getting Started
 
 1- You must have npm packge
