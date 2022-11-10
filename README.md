@@ -38,6 +38,9 @@ build your CSS  With full prepare without minify
 
 1.  `bash render.sh -full`
 
+Rebuilding... your CSS  With Watch
+  `bash render.sh -watch`
+
 ### B- With Optimizing for Production
 
 build your CSS  With prepare css minify your classes 
