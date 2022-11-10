@@ -41,7 +41,11 @@ npx tailwindcss -c $config_FN_JS -i $tailwind_input_css -o $tailwind_output_css 
 
 }
 
+watch_init(){
 
+npx tailwindcss -c $config_FN_JS -i $tailwind_input_css -o $tailwind_output_css --watch
+
+}
 
 install(){
 
@@ -111,6 +115,11 @@ elif [[ $1 = "-full" ]]; then
 echo "Full css in progress"
 
 full_init
+elif [[ $1 = "-watch" ]]; then
+
+echo "watch Start  See your files"
+
+watch_init
 
 elif [[ $1 = "-minify" ]]; then
 
